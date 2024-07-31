@@ -80,7 +80,7 @@ JSON 데이터를 불러와 변수에 지정합니다.
         anchorBoxes = [32 32; 64 64; 128 128; 224 224];
 
 #### 8.  모델 및 학습 설정
-미리 학습된 ResNet-50 모델을 사용하여 Faster R-CNN 레이어를 생성합니다.
+ResNet-50 모델을 사용하여 Faster R-CNN 레이어를 생성합니다.
         
         network = resnet50;
         featureLayer = 'activation_40_relu';
