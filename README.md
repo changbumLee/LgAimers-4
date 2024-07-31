@@ -111,6 +111,7 @@ JSON 데이터를 불러와 변수에 지정합니다.
         testFolder = fullfile(dataDir, "test");
 
 #### 13. 테스트 이미지에서 객체 탐지 수행
+테스트 이미지 폴더에서 이미지를 읽어와서 객체 탐지를 수행하고, 결과를 이미지에 표시합니다.
 
         testImages = imageDatastore(testFolder, 'FileExtensions', {'.jpg', '.png', '.jpeg'});
         while hasdata(testImages)
